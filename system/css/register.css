@@ -1,0 +1,14 @@
+﻿.login {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 210px;
+    height: 470px !important;
+}
+
+a {
+    text-decoration: none;
+    color: #158bb8;
+}

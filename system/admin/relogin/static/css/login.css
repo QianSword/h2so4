@@ -1,0 +1,163 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background: #222526;
+    font-family: 'Microsoft YaHei', verdana;
+}
+
+#loginform {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 350px;
+    width: 320px;
+    height: 200px;
+}
+
+input {
+    display: block;
+    margin: 21px auto 15px;
+    padding: 12px 20px 12px 10px;
+    width: 90%;
+    border: 0;
+    border-radius: 5px;
+    background: #333;
+    box-shadow: inset 0 1px 5px #272727;
+    color: #929999;
+    font-size: 14px;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px 1px #161718;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+button {
+    position: absolute;
+    top: 54px;
+    right: -42px;
+    width: 85px;
+    height: 85px;
+    border: 10px solid #222526;
+    border-radius: 50%;
+    background: #158bb8;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+    cursor: pointer;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+button:hover {
+    border-color: #158bb8;
+    background: #222526;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+button i {
+    font-size: 20px;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+button:hover i {
+    color: #158bb8;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+*:focus {
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #929999;
+}
+
+:-moz-placeholder {
+    color: #929999;
+}
+
+::-moz-placeholder {
+    color: #929999;
+}
+
+:-ms-input-placeholder {
+    color: #929999;
+}
+
+h1 {
+    padding: 12px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+#note {
+    padding-left: 5px;
+    color: #88887a;
+    text-align: left;
+    font-size: .8em;
+}
+
+a {
+    color: #88887a;
+    text-decoration: none;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+a:hover {
+    margin-left: 5px;
+    color: #fff;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -ms-transition: .5s ease;
+}
+
+#mainlogin {
+    position: relative;
+    float: left;
+    padding: 10px 15px;
+    width: 270px;
+    height: 180px;
+    border-radius: 4px;
+    background: #555;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

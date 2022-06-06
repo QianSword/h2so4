@@ -1,0 +1,39 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(bg.jpg);
+}
+.header {
+	width: 100%;
+	height: 250px;
+	background: url(hbg.jpg);
+	background-repeat: no-repeat!important;
+	background-size: 100% 100%;
+}
+#mainer {
+	margin: auto;
+	margin-top: 60px;
+	padding: 40px 0 0 0;
+	width: 60%;
+	height: 450px;
+	text-align: center;
+}
+.icon {
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+img {
+	height: 120px;
+	width: 120px;
+}
+a{
+	text-decoration:none;
+	color:#000;
+	font-size:16px;
+}

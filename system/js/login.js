@@ -1,0 +1,1 @@
+﻿document.getElementById("forgot").onclick(alert("神仙难救"))

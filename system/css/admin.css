@@ -1,0 +1,44 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 15em;
+    background: #ff0000;
+}
+
+.primary_option {
+    background: #ffff00;
+    z-index: 22;
+}
+
+.secondary_option {
+    height: 100%;
+    width: 12.5%;
+    float: left;
+    /*background: #00ff00;*/
+}
+
+.so_cont {
+    padding: 20px 0;
+    text-align: center;
+    border: 15px solid #00ff00;
+}
+
+.so_cont li {
+    margin-top: 8px;
+    display: block;
+}
+
+.so_cont li a {
+    text-decoration: none;
+    color: #00007f;
+}
+
+.console {
+    width: 200px;
+    /*height: 100%;*/
+    float: left;
+}
